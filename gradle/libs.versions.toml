@@ -1,0 +1,99 @@
+[versions]
+agp = "8.7.0"
+jettyServer = "11.0.15"
+kotlin = "1.9.0"
+core-ktx = "1.16.0"
+core-runtime = "2.2.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+lottie = "6.6.0"
+magicshapepath = "1.0.0-alpha3"
+material = "1.12.0"
+morphBottomNavigation = "1.0.1"
+nanohttpdWebsocket = "2.3.1"
+navigation-fragment-ktx = "2.8.9"
+okhttp = "4.12.0"
+safeargsPlugin = "2.8.9"
+googleServicePlugin = "4.4.2"
+hiltAndroid = "2.48"
+datastore-preferences = "1.1.4"
+gson = "2.11.0"
+logging-interceptor = "4.12.0"
+preference-ktx = "1.2.1"
+recyclerview = "1.4.0"
+retrofit = "2.11.0"
+sdp-android = "1.1.0"
+sscustombottomnavigation = "3.6"
+ssp-android = "1.1.0"
+swiperefreshlayout = "1.1.0"
+tyrusServer = "1.18"
+tyrusStandaloneClient = "1.18"
+viewpager2 = "1.1.0"
+gradle = "8.7.3"
+annotation = "1.9.1"
+constraintlayout = "2.2.1"
+lifecycleLivedataKtx = "2.8.7"
+lifecycleViewmodelKtx = "2.8.7"
+activity = "1.10.1"
+androidx-navigation = "2.8.3"
+androidx-lifecycle-extensions = "2.2.0"
+
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "core-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+magicshapepath = { module = "com.tbuonomo:magicshapepath", version.ref = "magicshapepath" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-core-runtime = { module = "androidx.arch.core:core-runtime", version.ref = "core-runtime" }
+
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation-fragment-ktx" }
+androidx-navigation-runtime-ktx = { module = "androidx.navigation:navigation-runtime-ktx", version.ref = "navigation-fragment-ktx" }
+
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+morph-bottom-navigation = { module = "com.tbuonomo:morph-bottom-navigation", version.ref = "morphBottomNavigation" }
+okhttp3-okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdp-android" }
+sscustombottomnavigation = { module = "com.github.simformsolutions:SSCustomBottomNavigation", version.ref = "sscustombottomnavigation" }
+ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "ssp-android" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "logging-interceptor" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore-preferences" }
+androidx-preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preference-ktx" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+okhttp-urlconnection = { module = "com.squareup.okhttp3:okhttp-urlconnection", version.ref = "logging-interceptor" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
+android-build-gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+#androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+#androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+
+androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "androidx-lifecycle-extensions" }
+tyrus-client = { module = "org.glassfish.tyrus:tyrus-client", version.ref = "tyrusServer" }
+tyrus-container-grizzly = { module = "org.glassfish.tyrus:tyrus-container-grizzly", version.ref = "tyrusServer" }
+tyrus-server = { module = "org.glassfish.tyrus:tyrus-server", version.ref = "tyrusServer" }
+tyrus-standalone-client = { module = "org.glassfish.tyrus.bundles:tyrus-standalone-client", version.ref = "tyrusStandaloneClient" }
+tyrus-standalone-server = { module = "org.glassfish.tyrus.bundles:tyrus-standalone-server", version.ref = "tyrusStandaloneClient" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "safeargsPlugin" }
+google-dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
+
+

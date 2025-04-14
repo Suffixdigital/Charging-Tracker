@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/buttonBackground">
+        <shape android:shape="rectangle">
+
+            <solid android:color="#fff"></solid>
+
+
+            <corners android:radius="20dp"></corners>
+        </shape>
+
+    </item>
+    <item
+        android:id="@+id/buttonImage"
+        android:bottom="5dp"
+        android:drawable="@drawable/sv_ic_chevron_double_right"
+        android:gravity="center"
+        android:left="15dp"
+        android:right="15dp"
+        android:top="5dp" />
+</layer-list>

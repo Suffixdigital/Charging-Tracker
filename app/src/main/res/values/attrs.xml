@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CellImageView">
+        <attr name="icon_imageview_useColor" format="boolean" />
+        <attr name="icon_imageview_isBitmap" format="boolean" />
+        <attr name="icon_imageview_resource" format="reference" />
+        <attr name="icon_imageview_color" format="color" />
+        <attr name="icon_imageview_size" format="dimension" />
+        <attr name="icon_imageview_isAction" format="boolean" />
+        <attr name="icon_imageview_actionBackgroundAlpha" format="boolean" />
+        <attr name="icon_imageview_changeSize" format="boolean" />
+        <attr name="icon_imageview_fitImage" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SSCustomBottomNavigation">
+        <attr name="ss_defaultIconColor" format="color" />
+        <attr name="ss_selectedIconColor" format="color" />
+        <attr name="ss_iconTextTypeface" format="string" />
+        <attr name="ss_iconTextColor" format="color" />
+        <attr name="ss_selectedIconTextColor" format="color" />
+        <attr name="ss_iconTextSize" format="dimension" />
+        <attr name="ss_waveHeight" format="integer" />
+        <attr name="ss_backgroundBottomColor" format="color" />
+        <attr name="ss_backgroundBottomDrawable" format="integer" />
+        <attr name="ss_circleColor" format="color" />
+        <attr name="ss_countTextColor" format="color" />
+        <attr name="ss_countBackgroundColor" format="color" />
+        <attr name="ss_countTypeface" format="string" />
+        <attr name="ss_rippleColor" format="color" />
+        <attr name="ss_shadowColor" format="color" />
+        <attr name="ss_reverseCurve" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SlideView">
+        <attr name="sv_slideBackgroundColor" format="color" />
+        <attr name="sv_buttonBackgroundColor" format="color" />
+        <attr name="sv_buttonImage" format="reference" />
+        <attr name="sv_buttonImageDisabled" format="reference" />
+        <attr name="sv_strokeColor" format="color" />
+        <attr name="sv_slideText" format="string" />
+        <attr name="sv_slideTextColor" format="color" />
+        <attr name="sv_reverseSlide" format="boolean" />
+        <attr name="sv_animateSlideText" format="boolean" />
+        <attr name="sv_slideTextSize" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

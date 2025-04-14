@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.activity.PaymentSummaryScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/btn_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icon_back" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tv_station_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/inter_semi_bold"
+                            android:gravity="center"
+                            android:text="ARAI-CoEZET"
+                            android:textColor="@color/black_000000"
+                            android:textSize="@dimen/_14ssp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tv_station_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center"
+                            android:text="Bharat Mandapam, Delhi"
+                            android:textColor="@color/black_000000"
+                            android:textSize="@dimen/_12ssp" />
+
+                    </LinearLayout>
+
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_17sdp"
+                        android:background="@drawable/icon_indian_flag"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_gravity="center"
+                        android:alpha="0.8"
+                        android:background="@drawable/rounded_colored_rectangle"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/inter_semi_bold"
+                            android:gravity="center"
+                            android:text="Charger A"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:text="₹600.00/10min"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13ssp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:paddingEnd="@dimen/_5sdp">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/inter_bold"
+                            android:gravity="center"
+                            android:text="Ashok Leyland Dost"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black_000000"
+                            android:textSize="@dimen/_14ssp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:text="TN 18 TC-1234"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black_000000"
+                            android:textSize="@dimen/_12ssp" />
+                    </LinearLayout>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@color/white"
+                        android:backgroundTint="@color/white"
+                        android:shadowColor="@android:color/transparent"
+                        app:cardCornerRadius="@dimen/_10sdp"
+                        app:cardElevation="0dp"
+                        app:strokeColor="@color/black_000000"
+                        app:strokeWidth="1dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_10sdp"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/inter_semi_bold"
+                                android:gravity="center|start"
+                                android:text="Charging Detail"
+                                android:textColor="@color/black_000000"
+                                android:textSize="@dimen/_12ssp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|start"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center|start"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:alpha="0.6"
+                                    android:fontFamily="@font/inter_regular"
+                                    android:gravity="center"
+                                    android:text="Receipt Number :"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|end"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/inter_semi_bold"
+                                    android:gravity="center|end"
+                                    android:paddingStart="@dimen/_5sdp"
+                                    android:text="#GC123456789"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|start"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center|start"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:alpha="0.6"
+                                    android:fontFamily="@font/inter_regular"
+                                    android:gravity="center"
+                                    android:text="Start Date &amp; Time :"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/tv_start_time"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|end"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/inter_semi_bold"
+                                    android:gravity="center|end"
+                                    android:paddingStart="@dimen/_5sdp"
+                                    android:text="03/01/2025, 10:00 AM"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|start"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center|start"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:alpha="0.6"
+                                    android:fontFamily="@font/inter_regular"
+                                    android:gravity="center"
+                                    android:text="End Date &amp; Time :"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/tv_end_time"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|end"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/inter_semi_bold"
+                                    android:gravity="center|end"
+                                    android:paddingStart="@dimen/_5sdp"
+                                    android:text="03/01/2025, 11:45 AM"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|start"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center|start"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:alpha="0.6"
+                                    android:fontFamily="@font/inter_regular"
+                                    android:gravity="center"
+                                    android:text="Charging Duration :"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/tv_charging_duration"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|end"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/inter_semi_bold"
+                                    android:gravity="center|end"
+                                    android:paddingStart="@dimen/_5sdp"
+                                    android:text="1 hour 45 minutes"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|start"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center|start"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:alpha="0.6"
+                                    android:fontFamily="@font/inter_regular"
+                                    android:gravity="center"
+                                    android:text="Total Energy Consumed :"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/tv_power"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|end"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/inter_semi_bold"
+                                    android:gravity="center|end"
+                                    android:paddingStart="@dimen/_5sdp"
+                                    android:text="25 kWh"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|start"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center|start"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:alpha="0.6"
+                                    android:fontFamily="@font/inter_regular"
+                                    android:gravity="center"
+                                    android:text="Charging Rate :"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|end"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/inter_semi_bold"
+                                    android:gravity="center|end"
+                                    android:paddingStart="@dimen/_5sdp"
+                                    android:text=" ₹4 per kwh"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|start"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="center|start"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:alpha="0.6"
+                                    android:fontFamily="@font/inter_regular"
+                                    android:gravity="center"
+                                    android:text="Type of Charging :"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center|end"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/inter_semi_bold"
+                                    android:gravity="center|end"
+                                    android:paddingStart="@dimen/_5sdp"
+                                    android:text="Fast"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/black_000000"
+                                    android:textSize="@dimen/_10ssp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center"
+                            android:text="Cost for Energy Consumption"
+                            android:textColor="@color/black_000000"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tv_total_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/inter_semi_bold"
+                            android:gravity="center"
+                            android:text="₹375 (25 kwh x ₹4/kwh)"
+                            android:textColor="@color/black_000000"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|start"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:gravity="center|start"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:alpha="0.6"
+                            android:fontFamily="@font/inter_regular"
+                            android:gravity="center"
+                            android:text="Total Amount Paid :"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black_000000"
+                            android:textSize="@dimen/_14ssp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tv_total"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center|end"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/inter_semi_bold"
+                            android:gravity="center|end"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:text="₹375"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black_000000"
+                            android:textSize="@dimen/_19ssp" />
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tv_thank_you_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_30sdp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center"
+                        android:text="Thank you for using  ARAI - CoEZET  station. \nWe hope to serve you again soon!"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black_000000"
+                        android:textSize="@dimen/_10ssp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha="0.3"
+                android:background="@drawable/app_suffix_logo_icon"
+                android:scaleX="0.75"
+                android:scaleY="0.75" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+</layout>
