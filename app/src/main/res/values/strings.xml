@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Charging Tracker</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="lbl_login">Login</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favourite</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="content_home">Home Screen</string>
+    <string name="content_favorite">Favourite Screen</string>
+    <string name="content_chat">Chat Screen</string>
+    <string name="content_notification">Notification Screen</string>
+    <string name="content_profile">Profile Screen</string>
+
+    <string name="empty_value">empty</string>
+    <string name="count">10</string>
+    <string name="count_update">20</string>
+
+    <string name="main_page_selected">%s page is selected</string>
+
+    <string name="err_empty_email">• Email is required</string>
+    <string name="err_invalid_email">• That doesn\'t appear to be a valid email address</string>
+    <string name="err_empty_password">• Password is required</string>
+    <string name="title_map_view">Map View</string>
+    <string name="title_find_chargers">Find Chargers</string>
+    <string name="title_driver_profile">Driver Profile</string>
+</resources>

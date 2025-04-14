@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_FFFFFF"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"
+            tools:context=".ui.activity.LoginActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/tv_settings"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|start"
+                            android:scaleX="0.5"
+                            android:scaleY="0.5"
+                            android:src="@drawable/app_suffix_logo_icon" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:fontFamily="@font/inter_medium"
+                            android:text="Charging Tracker"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15ssp"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:layout_weight="4.2"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_20sdp"
+                            android:fontFamily="@font/dm_sans_bold"
+                            android:text="@string/lbl_login"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_20ssp" />
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/et_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:autofillHints=""
+                            android:background="@drawable/username_background"
+                            android:hint="Enter your email"
+                            android:imeOptions="flagNoExtractUi|actionNext"
+                            android:importantForAutofill="no"
+                            android:inputType="textEmailAddress|textNoSuggestions"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/_55sdp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_969696"
+                            android:textCursorDrawable="@null"
+                            android:textSize="@dimen/_12ssp"
+                            android:visibility="visible" />
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/tv_username_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/dm_sans_regular"
+                            android:gravity="center|start"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:text="dfafjs"
+                            android:textColor="@color/coral_DC2828"
+                            android:textSize="@dimen/_10ssp"
+                            android:visibility="gone" />
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/et_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginTop="@dimen/_15sdp"
+                            android:background="@drawable/password_background"
+                            android:hint="Enter your password"
+                            android:imeOptions="flagNoExtractUi|actionDone"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/_55sdp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray_969696"
+                            android:textCursorDrawable="@null"
+                            android:textSize="@dimen/_12ssp"
+                            android:visibility="visible" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/tv_password_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/dm_sans_regular"
+                            android:gravity="center|start"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:text=""
+                            android:textColor="@color/coral_DC2828"
+                            android:textSize="@dimen/_10ssp"
+                            android:visibility="gone" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btn_log_in"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginTop="@dimen/_45sdp"
+                            android:alpha="0.65"
+                            android:background="@drawable/rounded_colored_rectangle"
+                            android:backgroundTint="@color/blue_3970FF"
+                            android:enabled="false"
+                            android:text="Login"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_12ssp"
+                            app:backgroundTint="@color/blue_3970FF"
+                            app:cornerRadius="@dimen/_5sdp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.6"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/dm_sans_bold"
+                            android:gravity="center"
+                            android:text="Make In India"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_18ssp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </FrameLayout>
+
+
+</layout>

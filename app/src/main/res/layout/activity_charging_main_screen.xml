@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--Below fragment is for NavController Navigation-->
+            <fragment
+                android:id="@+id/nav_host_fragment"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:defaultNavHost="true"
+                app:navGraph="@navigation/mobile_navigation" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:backgroundTint="@android:color/transparent"
+                android:outlineAmbientShadowColor="@android:color/transparent"
+                android:shadowColor="@android:color/transparent"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardElevation="@dimen/_20sdp"
+                tools:ignore="UnusedAttribute">
+
+                <com.suffixdigital.chargingtracker.custombottomnavigation.SSCustomBottomNavigation
+                    android:id="@+id/bottomNavigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    app:ss_backgroundBottomColor="#ffffff"
+                    app:ss_backgroundBottomDrawable="@drawable/bottom_drawable"
+                    app:ss_circleColor="#ff6f00"
+                    app:ss_defaultIconColor="@color/black_000000"
+                    app:ss_iconTextColor="@color/black_000000"
+                    app:ss_iconTextSize="@dimen/_10ssp"
+                    app:ss_iconTextTypeface="fonts/graphik_semibold.ttf"
+                    app:ss_rippleColor="@android:color/transparent"
+                    app:ss_selectedIconColor="#ff6f00"
+                    app:ss_selectedIconTextColor="#ff6f00"
+                    app:ss_shadowColor="#1f212121"
+                    app:ss_waveHeight="7" />
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+</layout>

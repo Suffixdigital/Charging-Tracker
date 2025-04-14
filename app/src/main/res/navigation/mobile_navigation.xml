@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.suffixdigital.chargingtracker.ui.fragment.DashboardFragment"
+        tools:layout="@layout/dashboard_home" />
+
+    <fragment
+        android:id="@+id/navigation_find_station"
+        android:name="com.suffixdigital.chargingtracker.ui.fragment.FindChargingStationFragment"
+        tools:layout="@layout/fragment_find_charging_station" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.suffixdigital.chargingtracker.ui.fragment.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_server_socket"
+        android:name="com.suffixdigital.chargingtracker.ui.fragment.ServerSocketFragment"
+        tools:layout="@layout/fragment_server_socket" />
+
+</navigation>

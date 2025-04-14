@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="teal_03dac5">#FF03DAC5</color>
+    <color name="steel_blue_0B569A">#0B569A</color>
+    <color name="dark_navy_blue_1D244E">#1D244E</color>
+    <color name="gray_626262">#626262</color>
+    <color name="dark_gray_262626">#262626</color>
+    <color name="light_gray_a9b4b9">#A9B4B9</color>
+    <color name="red_FF0000">#FFFF0000</color>
+    <color name="coral_DC2828">#FFDC2828</color>
+    <color name="black_212529">#212529</color>
+    <color name="black_2E303C">#2e303c</color>
+    <color name="gray_707070">#707070</color>
+    <color name="gray_646161">#646161</color>
+    <color name="green_45B743">#45b743</color>
+    <color name="green_45B743_33">#3345b743</color>
+    <color name="red_F44336">#f44336</color>
+    <color name="red_F44336_33">#33f44336</color>
+    <color name="purple_1612E7">#1612e7</color>
+    <color name="purple_1612E7_33">#331612e7</color>
+    <color name="gray_777777">#777777</color>
+    <color name="green_008000">#008000</color>
+    <color name="white_FFFFFF_95">#20FFFFFF</color>
+    <color name="black_000000_CC">#CC000000</color>
+    <color name="black_000000_60">#90000000</color>
+    <color name="black_000000">#FF000000</color>
+    <color name="white_FFFFFF">#FFFFFFFF</color>
+    <color name="gray_969696">#969696</color>
+    <color name="blue_3970FF">#3970FF</color>
+    <color name="green_3EC94A">#3EC94A</color>
+    <color name="green_3EC94A_70">#703EC94A</color>
+    <color name="green_3EC94A_50">#503EC94A</color>
+    <color name="orange_EA8A45">#EA8A45</color>
+    <color name="red_F61D25">#F61D25</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_gray">#D3D3D3</color>
+    <color name="color_black">#000000</color>
+
+    <color name="color_home_bg">#9A979C</color>
+    <color name="color_favorite_bg">#444145</color>
+    <color name="color_chat_bg">#21FF06</color>
+    <color name="color_notification_bg">#80007F</color>
+    <color name="color_profile_bg">#0D5FFF</color>
+    <color name="color_blue">#003F87</color>
+
+    <color name="sv_slider_color_default">#3F51B5</color>
+    <color name="sv_button_color_default">#FFFFFF</color>
+    <color name="sv_stroke_color_default">#FFFFFF</color>
+</resources>
