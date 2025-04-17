@@ -176,9 +176,9 @@ follow these steps:
 
 If you have any questions, suggestions, or issues, please open an issue on GitHub or contact:
 
-* Your Name: [Your Name]
-* Email: [your.email@example.com]
-* GitHub: [Your GitHub profile]
+* Your Name: Team Suffix Digital
+* Email: krishna.gandhi@outlook.com
+* GitHub: https://github.com/Suffixdigital
 
 ## License
 
