@@ -2,18 +2,16 @@
 
 **Monitor your device's charging patterns and optimize battery health!**
 
-![App Screenshot](path/to/your/screenshot.png) <!-- Replace with an actual app screenshot -->
-
 ## Overview
 
 Charging Tracker is an Android application that helps you understand your device's charging habits.
-By logging and analyzing charging sessions, it provides insights that can help you make more
+Logging and analyzing charging sessions provides insights that can help you make more
 informed decisions about how you charge your device, potentially extending battery lifespan.
 
 ## Features
 
 * **Automatic Charging Session Logging:** The app automatically detects when your device starts and
-  stops charging, recording the date, time, and duration of each session.
+  stops charging, recording each session's date, time, and duration.
 * **Battery Level Tracking:** Monitors the battery percentage throughout each charging session,
   providing a detailed history.
 * **Charging Statistics:** Offers an overview of your charging behavior, including:
@@ -36,7 +34,7 @@ informed decisions about how you charge your device, potentially extending batte
       persistence.
     * **Data Binding:** `viewbinding`, `databinding-runtime`, `databinding-adapters`,
       `databinding-ktx`: Binds UI components to data sources for efficient and responsive updates.
-    * **Navigation**: `navigation-fragment-ktx`, `navigation-fragment`: Manages in app navigation.
+    * **Navigation**: `navigation-fragment-ktx`, `navigation-fragment`: Manages in-app navigation.
     * **Core:** `core-ktx`, `core`, `core-viewtree`: Provides core functionalities and utilities for
       Android development.
     * **Activity:** `activity-ktx`, `activity`: Manages app activities.
@@ -129,10 +127,10 @@ This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` fi
   unneeded sections.
 * **Dependencies:** I've included all the dependencies you shared in the "Tech Stack" section.
 * **Assumptions:** I've made some assumptions about the app's functionality based on its name and
-  the libraries it uses. Feel free to add or remove features to match what the app can actually do.
+  the libraries it uses. Feel free to add or remove features to match what the app can do.
 * **data_extraction_rules.xml:** I've also inferred that you are using a `data_extraction_rules.xml`
   file, due to the file being included in your context. You may want to add a section related to
-  this, if it is relevant.
+  this if it is relevant.
 
 * Replace `https://github.com/your-username/charging-tracker.git` with the actual URL of your
   repository.
@@ -177,7 +175,7 @@ follow these steps:
 If you have any questions, suggestions, or issues, please open an issue on GitHub or contact:
 
 * Your Name: Team Suffix Digital
-* Email: krishna.gandhi@outlook.com
+* Email: krishna.gandhi@suffixdigital.com 
 * GitHub: https://github.com/Suffixdigital
 
 ## License
